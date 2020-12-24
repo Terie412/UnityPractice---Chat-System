@@ -1,0 +1,149 @@
+2020/12/24 17:18:26:Log: 
+condition: 17:18:26.0-0: Register lua type cost time: 0.1992533
+stackTrace: UnityEngine.Debug:Log(Object)
+LuaInterface.Debugger:Log(String)
+LuaInterface.Debugger:Log(String, Object)
+LuaBinder:Bind(LuaState) (at Assets/LuaFramework/ToLua/Source/Generate/LuaBinder.cs:139)
+LuaMgr:Awake() (at Assets/Scripts/LuaMgr.cs:17)
+
+--------------------------------------
+2020/12/24 17:18:26:Log: 
+condition: 17:18:26.38-0: [tolua.lua:11]:ver20100 jit:     false    SSE2    SSE3    SSE4.1    BMI2    fold    cse    dce    fwd    dse    narrow    loop    abc    sink    fuse
+stackTrace: UnityEngine.Debug:Log(Object)
+LuaInterface.Debugger:Log(String)
+LuaInterface.ToLua:Print(IntPtr) (at Assets/LuaFramework/ToLua/Core/ToLua.cs:201)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaStatePtr:LuaPCall(Int32, Int32, Int32) (at Assets/LuaFramework/ToLua/Core/LuaStatePtr.cs:374)
+LuaInterface.LuaState:LuaLoadBuffer(Byte[], String) (at Assets/LuaFramework/ToLua/Core/LuaState.cs:2175)
+LuaInterface.LuaState:DoFile(String) (at Assets/LuaFramework/ToLua/Core/LuaState.cs:645)
+LuaInterface.LuaState:OpenBaseLuaLibs() (at Assets/LuaFramework/ToLua/Core/LuaState.cs:214)
+LuaInterface.LuaState:Start() (at Assets/LuaFramework/ToLua/Core/LuaState.cs:223)
+LuaMgr:InitStart() (at Assets/Scripts/LuaMgr.cs:27)
+LuaMgr:Awake() (at Assets/Scripts/LuaMgr.cs:21)
+
+--------------------------------------
+2020/12/24 17:18:26:Log: 
+condition: 17:18:26.39-0: [tolua.lua:12]:os: Windows, arch: x64
+stackTrace: UnityEngine.Debug:Log(Object)
+LuaInterface.Debugger:Log(String)
+LuaInterface.ToLua:Print(IntPtr) (at Assets/LuaFramework/ToLua/Core/ToLua.cs:201)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaStatePtr:LuaPCall(Int32, Int32, Int32) (at Assets/LuaFramework/ToLua/Core/LuaStatePtr.cs:374)
+LuaInterface.LuaState:LuaLoadBuffer(Byte[], String) (at Assets/LuaFramework/ToLua/Core/LuaState.cs:2175)
+LuaInterface.LuaState:DoFile(String) (at Assets/LuaFramework/ToLua/Core/LuaState.cs:645)
+LuaInterface.LuaState:OpenBaseLuaLibs() (at Assets/LuaFramework/ToLua/Core/LuaState.cs:214)
+LuaInterface.LuaState:Start() (at Assets/LuaFramework/ToLua/Core/LuaState.cs:223)
+LuaMgr:InitStart() (at Assets/Scripts/LuaMgr.cs:27)
+LuaMgr:Awake() (at Assets/Scripts/LuaMgr.cs:21)
+
+--------------------------------------
+2020/12/24 17:18:26:Log: 
+condition: 17:18:26.154-0: [global_data.lua:12]:初始化以下变量：
+stackTrace: UnityEngine.Debug:Log(Object)
+LuaInterface.Debugger:Log(String)
+LuaInterface.ToLua:Print(IntPtr) (at Assets/LuaFramework/ToLua/Core/ToLua.cs:201)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/LuaFramework/ToLua/Core/LuaState.cs:756)
+LuaInterface.LuaFunction:PCall() (at Assets/LuaFramework/ToLua/Core/LuaFunction.cs:96)
+LuaInterface.LuaFunction:Invoke(LuaTable) (at Assets/LuaFramework/ToLua/Core/LuaFunction.cs:245)
+LuaMgr:StartMain() (at Assets/Scripts/LuaMgr.cs:38)
+LuaMgr:InitStart() (at Assets/Scripts/LuaMgr.cs:28)
+LuaMgr:Awake() (at Assets/Scripts/LuaMgr.cs:21)
+
+--------------------------------------
+2020/12/24 17:18:26:Log: 
+condition: 17:18:26.154-0: [global_data.lua:13]:userdata:0x24F19F5D5E0
+stackTrace: UnityEngine.Debug:Log(Object)
+LuaInterface.Debugger:Log(String)
+LuaInterface.ToLua:Print(IntPtr) (at Assets/LuaFramework/ToLua/Core/ToLua.cs:201)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/LuaFramework/ToLua/Core/LuaState.cs:756)
+LuaInterface.LuaFunction:PCall() (at Assets/LuaFramework/ToLua/Core/LuaFunction.cs:96)
+LuaInterface.LuaFunction:Invoke(LuaTable) (at Assets/LuaFramework/ToLua/Core/LuaFunction.cs:245)
+LuaMgr:StartMain() (at Assets/Scripts/LuaMgr.cs:38)
+LuaMgr:InitStart() (at Assets/Scripts/LuaMgr.cs:28)
+LuaMgr:Awake() (at Assets/Scripts/LuaMgr.cs:21)
+
+--------------------------------------
+2020/12/24 17:18:26:Log: 
+condition: 17:18:26.155-0: [global_data.lua:14]:userdata:0x24F19F5CE58
+stackTrace: UnityEngine.Debug:Log(Object)
+LuaInterface.Debugger:Log(String)
+LuaInterface.ToLua:Print(IntPtr) (at Assets/LuaFramework/ToLua/Core/ToLua.cs:201)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/LuaFramework/ToLua/Core/LuaState.cs:756)
+LuaInterface.LuaFunction:PCall() (at Assets/LuaFramework/ToLua/Core/LuaFunction.cs:96)
+LuaInterface.LuaFunction:Invoke(LuaTable) (at Assets/LuaFramework/ToLua/Core/LuaFunction.cs:245)
+LuaMgr:StartMain() (at Assets/Scripts/LuaMgr.cs:38)
+LuaMgr:InitStart() (at Assets/Scripts/LuaMgr.cs:28)
+LuaMgr:Awake() (at Assets/Scripts/LuaMgr.cs:21)
+
+--------------------------------------
+2020/12/24 17:18:26:Log: 
+condition: 17:18:26.155-0: [global_data.lua:15]:userdata:0x24F19F5CF00
+stackTrace: UnityEngine.Debug:Log(Object)
+LuaInterface.Debugger:Log(String)
+LuaInterface.ToLua:Print(IntPtr) (at Assets/LuaFramework/ToLua/Core/ToLua.cs:201)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/LuaFramework/ToLua/Core/LuaState.cs:756)
+LuaInterface.LuaFunction:PCall() (at Assets/LuaFramework/ToLua/Core/LuaFunction.cs:96)
+LuaInterface.LuaFunction:Invoke(LuaTable) (at Assets/LuaFramework/ToLua/Core/LuaFunction.cs:245)
+LuaMgr:StartMain() (at Assets/Scripts/LuaMgr.cs:38)
+LuaMgr:InitStart() (at Assets/Scripts/LuaMgr.cs:28)
+LuaMgr:Awake() (at Assets/Scripts/LuaMgr.cs:21)
+
+--------------------------------------
+2020/12/24 17:18:26:Log: 
+condition: 17:18:26.155-0: [global_data.lua:16]:初始化完毕...
+stackTrace: UnityEngine.Debug:Log(Object)
+LuaInterface.Debugger:Log(String)
+LuaInterface.ToLua:Print(IntPtr) (at Assets/LuaFramework/ToLua/Core/ToLua.cs:201)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/LuaFramework/ToLua/Core/LuaState.cs:756)
+LuaInterface.LuaFunction:PCall() (at Assets/LuaFramework/ToLua/Core/LuaFunction.cs:96)
+LuaInterface.LuaFunction:Invoke(LuaTable) (at Assets/LuaFramework/ToLua/Core/LuaFunction.cs:245)
+LuaMgr:StartMain() (at Assets/Scripts/LuaMgr.cs:38)
+LuaMgr:InitStart() (at Assets/Scripts/LuaMgr.cs:28)
+LuaMgr:Awake() (at Assets/Scripts/LuaMgr.cs:21)
+
+--------------------------------------
+2020/12/24 17:18:26:Log: 
+condition: 已完成资源加载：Cell, FriendCell, Launch, MainScene, MyMessage, OtherMessage, 
+stackTrace: UnityEngine.Debug:Log(Object)
+<LoadAssestBundle>d__27:MoveNext() (at Assets/Scripts/GameMgr.cs:172)
+UnityEngine.SetupCoroutine:InvokeMoveNext(IEnumerator, IntPtr)
+
+--------------------------------------
+2020/12/24 17:18:28:Log: 
+condition: 注册事件ME_FRIEND_MSG_COME
+stackTrace: UnityEngine.Debug:Log(Object)
+EventMgr:RegisterEvent(String, EventHandler) (at Assets/Scripts/EventMgr.cs:26)
+NetWorkMgr:Start() (at Assets/Scripts/NetWorkMgr.cs:84)
+
+--------------------------------------
+2020/12/24 17:18:28:Log: 
+condition: 潘波镁：发送消息：有人匹配一起吗？
+stackTrace: UnityEngine.Debug:Log(Object)
+<OutputMessageToWorld>d__16:MoveNext() (at Assets/Scripts/NetWorkMgr.cs:104)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+NetWorkMgr:Start() (at Assets/Scripts/NetWorkMgr.cs:85)
+
+--------------------------------------
+2020/12/24 17:18:28:Warning: 
+condition: 没有注册过事件：WORLD_MSG_COME
+stackTrace: UnityEngine.Debug:LogWarning(Object)
+EventMgr:DispatchEvent(String, Object[]) (at Assets/Scripts/EventMgr.cs:55)
+<OutputMessageToWorld>d__16:MoveNext() (at Assets/Scripts/NetWorkMgr.cs:105)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+NetWorkMgr:Start() (at Assets/Scripts/NetWorkMgr.cs:85)
+
+--------------------------------------
+2020/12/24 17:18:29:Log: 
+condition: 注册事件WORLD_MSG_COME
+stackTrace: UnityEngine.Debug:Log(Object)
+EventMgr:RegisterEvent(String, EventHandler) (at Assets/Scripts/EventMgr.cs:26)
+EventMgrWrap:RegisterEvent(IntPtr) (at Assets/LuaFramework/ToLua/Source/Generate/EventMgrWrap.cs:28)
+LuaInterface.LuaDLL:lua_pcall(IntPtr, Int32, Int32, Int32)
+LuaInterface.LuaState:PCall(Int32, Int32) (at Assets/LuaFramework/ToLua/Core/LuaState.cs:756)
+LuaInterface.LuaFunction:PCall() (at Assets/LuaFramework/ToLua/Core/LuaFunction.cs:96)
+LuaInterface.LuaFunction:Call(LuaTable) (at

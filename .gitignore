@@ -1,0 +1,11 @@
+*.apk
+*.sln
+*.csproj
+*.meta
+.vs
+Library
+Logs
+obj
+Packages
+ProjectSettings
+Temp
