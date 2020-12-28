@@ -6,20 +6,26 @@ using LuaInterface;
 using UnityEngine.Networking;
 using Newtonsoft.Json;
 
+[RequireComponent(typeof(EventTriggerListener))]
 public class Test : MonoBehaviour
 {
     private void Start()
     {
-        Text t = GetComponent<Text>();
-        t.text = "啊啊啊";
-        Debug.Log(t.preferredWidth);
-        t.text = "啊啊啊啊啊啊";
-        Debug.Log(t.preferredWidth);
-        t.text = "啊啊啊啊啊啊啊啊啊";
-        Debug.Log(t.preferredWidth);
-        t.text = "啊啊啊啊啊啊啊啊啊啊啊啊";
-        Debug.Log(t.preferredWidth);
-        t.text = "啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊";
-        Debug.Log(t.preferredWidth);
+        var e = GetComponent<EventTriggerListener>();
+        if(e == null)
+        {
+            e = this.gameObject.AddComponent<EventTriggerListener>();
+        }
+
+        e.onPointUp = OnPointUp;
     }
+
+    void OnPointUp()
+    {
+        var r = GetComponent<CanvasRenderer>();
+        if(r != null) {
+            Debug.Log(r.absoluteDepth);
+        }
+    }
+
 }
